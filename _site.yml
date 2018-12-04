@@ -6,8 +6,8 @@ output:
   html_document:
     toc: yes
     toc_float: yes
-    toc_depth: 2
-    theme: cosmo
+    toc_depth: 3
+    theme: yeti
     highlight: tango
     df_print: paged
     lib_dir: site_libs
@@ -20,6 +20,9 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Look Here Mom!"
+      href: Group_02.html
+      
   right:
     - icon: fa-slack fa-lg
       href: https://2018-fall-sds-albert.slack.com/
