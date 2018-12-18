@@ -81,7 +81,7 @@ To further investigate the possible factors which may influence low-income peopl
 
 
 
-#Tobacco
+# Tobacco
 	
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height= 10, fig.width= 14}
 #Graph 4: Smokers by Income Quartile
@@ -138,7 +138,7 @@ https://truthinitiative.org/news/smoking-and-low-income-communities
 https://publichealthlawcenter.org/sites/default/files/resources/tclc-homeless-tobacco-FAQ-2016.pdf 
 
 
-#Obesity
+# Obesity
 
 The US is one of the wealthiest countries in the world yet it has one of the highest obesity rates. One-third of the population is obese while another third is overweight (American Diabetes Association.) Hunger and lack of availability of healthy foods are two contributing factors to the higher level of obesity among people living in poverty. Poverty-dense urban areas are oftentimes referenced as “food deserts” because of the lack of availability and affordability of fresh and good quality food. However, hunger and poor availability of healthy food is only one reason why obesity tends to track with poverty. 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height= 10, fig.width= 14}
@@ -194,7 +194,7 @@ Obesity is more prevalent among men in the middle income distribution than in th
 
 
 
-#Exercise 
+# Exercise 
 
 As an attempt to further explain the factors which may contribute to low-income people’s high levels of obesity, we created the visualization above which displays New England’s major commuting zones, colored as the fraction of exercise each survey participant partook in during the past 30 days and sorted by each income quartile.  Since there is an association between sedentariness, poor health, and obesity, we felt that exercise rates might explain low-income obesity in New England.  
 
