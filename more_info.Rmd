@@ -132,7 +132,7 @@ Cigarettes pose a great risk of death and disease, specifically lung cancer and 
 
 # Obesity
 
-The US is one of the wealthiest countries in the world yet it has one of the highest obesity rates. The statistics are shocking: one-third of the population is obese while another third is overweight^[Levine, James A. “Poverty and Obesity in the U.S.” American Diabetes Association: Diabetes Journals, American Diabetes Association, Nov. 2011, diabetes.diabetesjournals.org/content/60/11/2667.] Hunger and lack of access to healthy foods are two contributing factors to the higher obesity rate for those living in poverty.^[Levine,“Poverty and Obesity in the U.S.”] 
+The US is one of the wealthiest countries in the world yet it has one of the highest rates of obesity. The statistics are shocking: one-third of the American population is obese while another third is overweight^[Levine, James A. “Poverty and Obesity in the U.S.” American Diabetes Association: Diabetes Journals, American Diabetes Association, Nov. 2011, diabetes.diabetesjournals.org/content/60/11/2667.] There is a significant prevalancy of obesity for those in poverty, contributed to hunger and lack of access to healthy foods.^[Levine,“Poverty and Obesity in the U.S.”] 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height= 10, fig.width= 14}
 #Graph: Obesity by Income Quartile
@@ -182,11 +182,7 @@ ggplot() + geom_sf(data = income_and_obesity_rates_NE, aes(fill = perc_obese))+
 
 ```
 
-INTERPRETATION OF GRAPH
-
-
-While New England states have obesity rates lower than the national average, obesity in New England follows the national trend of varying inversely with income.^[“Adult Obesity in the United States.” The State of Obesity, Robert Wood Johnson Foundation, Sept. 2018, stateofobesity.org/adult-obesity/.] 
-
+The data above clearly exemplify this trend. For those in the lowest income quartlie, obesity rates are much higher throughout the New England area than for those in the highest quartile, with widespread lower rates across the region. Interestingly, the second and third quartile trends seem quite similar and serve as an intermediate minimal decrease in obesity from the lowest quartile. Compared to the national average, obesity rates in New England states are much lower. However, New England does follow the national trend of varying inversely with income.^[“Adult Obesity in the United States.” The State of Obesity, Robert Wood Johnson Foundation, Sept. 2018, stateofobesity.org/adult-obesity/.] 
 
 
 
