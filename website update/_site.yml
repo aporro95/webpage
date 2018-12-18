@@ -22,6 +22,10 @@ navbar:
       href: about.html
     - text: "Look Here Mom!"
       href: Group_02.html
+    - text: "Final Project Blogpost"
+      href: index.html
+    - text: "More info"
+      href: more_info.html
       
   right:
     - icon: fa-slack fa-lg
