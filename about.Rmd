@@ -18,4 +18,3 @@ Hello world! I hope you can see this because I am knitting the heck out of this.
 
 ## Subsection name
 
-Hello world again!
