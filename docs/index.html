@@ -9,10 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Ana Porro" />
+<meta name="author" content="Morgan Barney, Sarah Albert, and Ana Porro" />
 
 
-<title>My Website</title>
+<title>Life Expectancy in New England</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,49 +29,6 @@
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-pre, code { background-color: #f8f8f8; }
-code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
-code > span.dt { color: #204a87; } /* DataType */
-code > span.dv { color: #0000cf; } /* DecVal */
-code > span.bn { color: #0000cf; } /* BaseN */
-code > span.fl { color: #0000cf; } /* Float */
-code > span.ch { color: #4e9a06; } /* Char */
-code > span.st { color: #4e9a06; } /* String */
-code > span.co { color: #8f5902; font-style: italic; } /* Comment */
-code > span.ot { color: #8f5902; } /* Other */
-code > span.al { color: #ef2929; } /* Alert */
-code > span.fu { color: #000000; } /* Function */
-code > span.er { color: #a40000; font-weight: bold; } /* Error */
-code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #000000; } /* Constant */
-code > span.sc { color: #000000; } /* SpecialChar */
-code > span.vs { color: #4e9a06; } /* VerbatimString */
-code > span.ss { color: #4e9a06; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #000000; } /* Variable */
-code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-code > span.ex { } /* Extension */
-code > span.at { color: #c4a000; } /* Attribute */
-code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
-</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -209,7 +166,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -315,7 +272,13 @@ div.tocify {
   <a href="about.html">About</a>
 </li>
 <li>
-  <a href="Group_02.html">Look Here Mom!</a>
+  <a href="Rural_Healthcare.html">Look Here Mom!</a>
+</li>
+<li>
+  <a href="index.html">Final Project Blogpost</a>
+</li>
+<li>
+  <a href="more_info.html">More info</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -334,8 +297,8 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">My Website</h1>
-<h4 class="author"><em>Ana Porro</em></h4>
+<h1 class="title toc-ignore">Life Expectancy in New England</h1>
+<h4 class="author"><em>Morgan Barney, Sarah Albert, and Ana Porro</em></h4>
 <h4 class="date"><em>Last updated on 2018-12-18</em></h4>
 
 </div>
@@ -344,132 +307,9 @@ div.tocify {
 <!--
 Comments in HTML are like this! 
 -->
-<p>Hello, Website!</p>
-<div id="look-at-this-plot" class="section level1">
-<h1>LOOK AT THIS PLOT!!!!!</h1>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(ggplot2)
-<span class="kw">ggplot</span>(mtcars, <span class="kw">aes</span>(<span class="dt">x=</span>cyl, <span class="dt">y=</span> mpg)) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span>
-<span class="st">  </span><span class="kw">labs</span>(<span class="dt">x=</span> <span class="st">&quot;Number of cylinders&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Miles per gallon&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<div id="my-second-section" class="section level2">
-<h2>My second section</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(mtcars)</code></pre></div>
-<div class="kable-table">
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th align="right">mpg</th>
-<th align="right">cyl</th>
-<th align="right">disp</th>
-<th align="right">hp</th>
-<th align="right">drat</th>
-<th align="right">wt</th>
-<th align="right">qsec</th>
-<th align="right">vs</th>
-<th align="right">am</th>
-<th align="right">gear</th>
-<th align="right">carb</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mazda RX4</td>
-<td align="right">21.0</td>
-<td align="right">6</td>
-<td align="right">160</td>
-<td align="right">110</td>
-<td align="right">3.90</td>
-<td align="right">2.620</td>
-<td align="right">16.46</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td>Mazda RX4 Wag</td>
-<td align="right">21.0</td>
-<td align="right">6</td>
-<td align="right">160</td>
-<td align="right">110</td>
-<td align="right">3.90</td>
-<td align="right">2.875</td>
-<td align="right">17.02</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td>Datsun 710</td>
-<td align="right">22.8</td>
-<td align="right">4</td>
-<td align="right">108</td>
-<td align="right">93</td>
-<td align="right">3.85</td>
-<td align="right">2.320</td>
-<td align="right">18.61</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">1</td>
-</tr>
-<tr class="even">
-<td>Hornet 4 Drive</td>
-<td align="right">21.4</td>
-<td align="right">6</td>
-<td align="right">258</td>
-<td align="right">110</td>
-<td align="right">3.08</td>
-<td align="right">3.215</td>
-<td align="right">19.44</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">1</td>
-</tr>
-<tr class="odd">
-<td>Hornet Sportabout</td>
-<td align="right">18.7</td>
-<td align="right">8</td>
-<td align="right">360</td>
-<td align="right">175</td>
-<td align="right">3.15</td>
-<td align="right">3.440</td>
-<td align="right">17.02</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">2</td>
-</tr>
-<tr class="even">
-<td>Valiant</td>
-<td align="right">18.1</td>
-<td align="right">6</td>
-<td align="right">225</td>
-<td align="right">105</td>
-<td align="right">2.76</td>
-<td align="right">3.460</td>
-<td align="right">20.22</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td align="right">1</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div id="and-this-plot" class="section level1">
-<h1>AND THIS PLOT!!</h1>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(mtcars, <span class="kw">aes</span>(<span class="dt">x=</span>wt, <span class="dt">y=</span>mpg, <span class="dt">color =</span> hp)) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span>
-<span class="st">  </span><span class="kw">labs</span>(<span class="dt">x=</span> <span class="st">&quot;Weight in Thousands of Pounds&quot;</span>, <span class="dt">y=</span> <span class="st">&quot;Miles Per Gallon&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-</div>
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="1344" /></p>
+<p>This visualization displays the life expectancy of New Englanders in 2000 separated by both sex and income quartile. The lowest income quartile is represented by the number 1, while the highest is by the number 4. This data used in this analysis was taken from a paper titled “The Association between Income and Life Expectancy in the United States, 2001-2014” by Raj Chetty et al. In their paper, they constructed income quartiles using income data for the US population through 1.4 billion deidentified tax records between 1999 and 2014. Additionally, mortality data was obtained from Social Security Administration death records. These data were used to estimate race- and ethnicity-adjusted life expectancy at 40 years of age by household income percentile, sex, and geographic area, and to evaluate factors associated with differences in life expectancy.</p>
+<p>Firstly, in New England, it appears that life expectancy per income quartile is not equivalent by gender. This visualization shows that on average, women have a higher life expectancy than men in all income quartiles. Additionally, life expectancy increases by income quartile. Therefore, perhaps unsurprisingly, it appears that life expectancy may be a byproduct of income inequality. It will be interesting to see if the correlation between income inequality and health inequality continues over specific health indicators that contribute to life expectancy, such as tobacco use, obesity, and frequency of exercise. Click on the <a href="https://rudeboybert.github.io/SDS192/projects.html#fnref1">more info tab</a> to see!</p>
 
 
 
