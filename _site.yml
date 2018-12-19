@@ -20,8 +20,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "3"
-      href: Rural_Healthcare.html
     - text: "Final Project Blog Post"
       href: final_proj.html
     - text: "More info"
