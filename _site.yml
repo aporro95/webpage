@@ -14,7 +14,7 @@ output:
     self_contained: no
 # All fa icons were obtained from https://fontawesome.com/icons?d=gallery
 navbar:
-  title: "My Website"
+  title: "Ana's Website"
   left:
     - text: "Home"
       href: index.html
@@ -22,7 +22,7 @@ navbar:
       href: about.html
     - text: "3"
       href: Rural_Healthcare.html
-    - text: "Final Project Blogpost"
+    - text: "Final Project Blog Post"
       href: final_proj.html
     - text: "More info"
       href: more_info.html
