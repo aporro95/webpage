@@ -1,6 +1,5 @@
 ---
 title: "The Exponential Cost of Time When In a  Life or Death Emergency: \n The Struggle for Healthcare Accessability in Rural America "
-author: "Group 02: Ana Porro and Victoria Zheng"
 date: "November 30th, 2018"
 output:
   html_document:
