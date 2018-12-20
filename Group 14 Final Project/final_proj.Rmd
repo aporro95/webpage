@@ -1,6 +1,6 @@
 ---
 title: "Can Money Buy Higher Life Expectancy?"
-author: "Group 14: Morgan Barney, Ana Porro, and Sarah Albert"
+author: "Group 14: Sarah Albert, Morgan Barney, and Ana Porro"
 date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
