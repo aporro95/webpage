@@ -127,6 +127,7 @@ ggplot() + geom_sf(data = income_and_smoking_rates_NE, aes(fill = perc_smokers))
   #scale_fill_gradientn(colours = heat.colors(4))
   
 ```
+
 The data for New England states embodies this trend. Smoking rates for the lowest quartile are much higher than those in the highest quartile. This could be a result of historic targeted marketing of tobacco products to low-income individuals by attaching coupons to food stamps and giving out free cigarettes in housing projects.^[“Why Are 72% of Smokers from Lower-Income Communities?” Truth Initiative: Inspiring  Tobacco Free Lives, Truth Initiative, 24 Jan. 2018, truthinitiative.org/news/why-are-72-percent-smokers-lower-income-communities] Additionally, the tobacco industry fights to keep prices low so that low-income people can continue to foster their nicotine addiction by spending billions of dollars each year to fight cigarette taxes and price increases.^[Truth Initiative, “Why Are 72% of Smokers from Lower-Income Communities?”] Further, low-income communities have less access to resources to help them quit smoking, and are exposed to less education on the health hazards of smoking.^[NCI and WHO,"The Economics of Tobacco and Tobacco Control"]
 
 # Obesity
